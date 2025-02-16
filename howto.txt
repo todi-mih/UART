@@ -1,0 +1,14 @@
+First, connect the grounds (GND) between the boards:
+
+On both Nexys DDR boards, locate the Pmod connectors (they're the small headers with pins)
+On each Pmod connector, pin 5 or 6 is typically GND
+Connect these GND pins between boards with a jumper wire
+
+
+For the data connection:
+
+The code uses pin C17, which is on Pmod JA, pin 1
+Connect a single jumper wire from Pmod JA pin 1 on the transmitter board to Pmod JA pin 1 on the receiver board
+
+
+
